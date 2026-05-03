@@ -226,7 +226,7 @@
                 type="number"
                 class="cell-input"
                 id="beg_b"
-                value="11"
+                placeholder="0"
                 oninput="calc()"
               />
             </td>
@@ -235,11 +235,11 @@
                 type="number"
                 class="cell-input"
                 id="beg_t"
-                value="11"
+                placeholder="0"
                 oninput="calc()"
               />
             </td>
-            <td><span class="cell-sum" id="beg_sum">22</span></td>
+            <td><span class="cell-sum" id="beg_sum">0</span></td>
           </tr>
           <tr>
             <td><span class="row-name">del</span></td>
@@ -248,7 +248,7 @@
                 type="number"
                 class="cell-input"
                 id="del_b"
-                value="30"
+                placeholder="0"
                 oninput="calc()"
               />
             </td>
@@ -257,11 +257,11 @@
                 type="number"
                 class="cell-input"
                 id="del_t"
-                value="30"
+                placeholder="0"
                 oninput="calc()"
               />
             </td>
-            <td><span class="cell-sum" id="del_sum">60</span></td>
+            <td><span class="cell-sum" id="del_sum">0</span></td>
           </tr>
           <tr>
             <td><span class="row-name">sales</span></td>
@@ -270,7 +270,7 @@
                 type="number"
                 class="cell-input"
                 id="sal_b"
-                value="12"
+                placeholder="0"
                 oninput="calc()"
               />
             </td>
@@ -279,11 +279,11 @@
                 type="number"
                 class="cell-input"
                 id="sal_t"
-                value="13"
+                placeholder="0"
                 oninput="calc()"
               />
             </td>
-            <td><span class="cell-sum" id="sal_sum">25</span></td>
+            <td><span class="cell-sum" id="sal_sum">0</span></td>
           </tr>
           <tr>
             <td><span class="row-name">po</span></td>
@@ -292,7 +292,7 @@
                 type="number"
                 class="cell-input"
                 id="po_b"
-                value="3"
+                placeholder="0"
                 oninput="calc()"
               />
             </td>
@@ -301,20 +301,20 @@
                 type="number"
                 class="cell-input"
                 id="po_t"
-                value="2"
+                placeholder="0"
                 oninput="calc()"
               />
             </td>
-            <td><span class="cell-sum" id="po_sum">5</span></td>
+            <td><span class="cell-sum" id="po_sum">0</span></td>
           </tr>
           <tr>
             <td>
               <span class="row-name">total</span>
               <span class="formula-tag">beg+del−sales−po</span>
             </td>
-            <td><span class="cell-calc" id="tot_b">26</span></td>
-            <td><span class="cell-calc" id="tot_t">26</span></td>
-            <td><span class="cell-sum calc" id="tot_sum">52</span></td>
+            <td><span class="cell-calc" id="tot_b">0</span></td>
+            <td><span class="cell-calc" id="tot_t">0</span></td>
+            <td><span class="cell-sum calc" id="tot_sum">0</span></td>
           </tr>
           <tr>
             <td><span class="row-name">scan</span></td>
@@ -323,7 +323,7 @@
                 type="number"
                 class="cell-input"
                 id="scn_b"
-                value="15"
+                placeholder="0"
                 oninput="calc()"
               />
             </td>
@@ -332,20 +332,20 @@
                 type="number"
                 class="cell-input"
                 id="scn_t"
-                value="15"
+                placeholder="0"
                 oninput="calc()"
               />
             </td>
-            <td><span class="cell-sum" id="scn_sum">30</span></td>
+            <td><span class="cell-sum" id="scn_sum">0</span></td>
           </tr>
           <tr>
             <td>
               <span class="row-name">variance</span>
               <span class="formula-tag">scan−total</span>
             </td>
-            <td><span class="cell-calc" id="var_b">-11</span></td>
-            <td><span class="cell-calc" id="var_t">-11</span></td>
-            <td><span class="cell-sum calc" id="var_sum">-22</span></td>
+            <td><span class="cell-calc" id="var_b">0</span></td>
+            <td><span class="cell-calc" id="var_t">0</span></td>
+            <td><span class="cell-sum calc" id="var_sum">0</span></td>
           </tr>
         </tbody>
       </table>
@@ -353,17 +353,17 @@
       <div class="summary-grid">
         <div class="summary-card">
           <div class="s-label">Total (bttms+tops)</div>
-          <div class="s-val" id="sum_total">52</div>
+          <div class="s-val" id="sum_total">0</div>
           <div class="s-sub">expected on hand</div>
         </div>
         <div class="summary-card">
           <div class="s-label">Scan (bttms+tops)</div>
-          <div class="s-val" id="sum_scan">30</div>
+          <div class="s-val" id="sum_scan">0</div>
           <div class="s-sub">physically counted</div>
         </div>
         <div class="summary-card">
           <div class="s-label">Variance (bttms+tops)</div>
-          <div class="s-val neg" id="sum_var">-22</div>
+          <div class="s-val" id="sum_var">0</div>
           <div class="s-sub">scan − total</div>
         </div>
       </div>
